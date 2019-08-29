@@ -1,9 +1,11 @@
 {
-  "name": "sim-cli",
+  "name": "node-sim-cli",
   "version": "1.0.0",
   "description": "Some simple simulator cli commands",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "sim-cli": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
